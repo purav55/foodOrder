@@ -89,7 +89,7 @@ const Home = () => {
 
       <div className='explore-questions'>
         <div className='explore-questions-main-div'>
-          <h1>Explore options near me</h1>
+          <h1>Explore options near me </h1>
           {
             Questions.map(((que, index) => {
               return (
