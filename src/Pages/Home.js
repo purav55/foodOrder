@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, {  useRef, useState } from 'react'
 import SimpleImageSlider from "react-simple-image-slider";
-import Loader from '../Components/Loader';
 import Images from './../utils/Images.json'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Questions from './../utils/Questions.json'
@@ -46,8 +45,8 @@ const Home = () => {
         {
           Images.map((image) => {
             return (
-              <div key={image.url}>
-                <img key={image.url} src={image.url} onLoad={imageLoaded} alt='image' />
+              <div key={image.url + Math.random()}>
+                <img key={image.url} src={image.url} onLoad={imageLoaded} alt='food' />
               </div>
             )
           })
@@ -59,7 +58,7 @@ const Home = () => {
             {Services.map((data,i) => {
               return (
                 <div key={i}>
-                  <img src={data.image} />
+                  <img src={data.image} alt='food' />
                   <h1>{data.title}</h1>
                   <p>{data.service}</p>
                 </div>

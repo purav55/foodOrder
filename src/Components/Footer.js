@@ -20,7 +20,9 @@ const Footer = () => {
             {
               data.items.map((data,i)=>{
                 return(
+                  <React.Fragment  key={i}>
                   <p>{data}</p>
+                  </React.Fragment>
                 )
               })
             }
@@ -35,6 +37,12 @@ const Footer = () => {
         <TwitterIcon/>
         <YouTubeIcon/>
         <WhatsAppIcon/>
+        <div>
+        <img className='play-icons' src="./assets/image/apple.svg" alt='playstoreicon' />
+        </div>
+        <div>
+        <img className='play-icons' src="./assets/image/andriod.png" alt='playstoreicon' />
+        </div>
         </div>
       
       </div>

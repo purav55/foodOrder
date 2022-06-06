@@ -176,6 +176,7 @@ position: absolute;
 
 .footer-maindiv{
   background-color: #f5562f;
+  padding-bottom: 2rem;
 }
 
 .footer{
@@ -197,7 +198,9 @@ position: absolute;
 .footer-blocks h1{
   font-size: 1rem;
   margin: 1rem 0rem;
-
+}
+.play-icons{
+  width: 150px;
 }
 
 
