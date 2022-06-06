@@ -1,0 +1,17 @@
+[
+    {
+        "title":"Order On Time",
+        "service":"We are the one who provide your order on time.",
+        "image":"https://img.icons8.com/clouds/100/undefined/drink-time.png"
+    },
+    {
+        "title":"Live Order Tracking",
+        "service":"Know where your order is at all times, from the restaurant to your doorstep.",
+        "image":"https://img.icons8.com/plasticine/100/undefined/order-shipped.png"
+    },
+    {
+        "title":"Lightning-Fast Delivery",
+        "service":"Experience Swiggy's superfast delivery for food delivered fresh & on time.",
+        "image":"https://img.icons8.com/plasticine/100/undefined/deliver-food.png"
+    }
+]

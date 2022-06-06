@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1500px;
+}
+
+/* LOADER STYLE */
+
+.loader-style{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* NAVBAR CSS */
+
+.main-navbar{
+  background-color: #f5562f; 
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 999
+}
+.nav-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+.nav-links img{
+  height: 3rem;
+}
+
+.links-category a{
+  text-decoration: none;
+  color: inherit;
+}
+.links-category{
+  display: flex;
+}
+.links-category div{
+margin: 0rem 1rem;
+}
+
+
+/* HOME PAGE CSS */
+
+.home-maindiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 4.9rem;
+  background-color: #f5562f; 
+}
+.grid-show{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #f5562f; 
+  row-gap: 50px;
+  margin: 4.9rem 0rem 0rem 0rem;
+  padding: 1rem 0rem 0rem 0rem;
+}
+.grid-show img{
+  width: 88%;
+}
+.slider-three{
+  background-color: #f5562f; 
+
+}
+.slick-track{
+  display: flex;
+}
+
+.text-food{
+  background-color: #f5562f; 
+  padding: 5rem 0rem;
+}
+
+.text-food-div{
+  
+  background-color: white;
+  padding: 3rem 0rem;
+}
+
+.text-food-div-data{
+ width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.text-food-div-data div{
+  width: 30%;
+  text-align: center;
+}
+
+.text-food-div-data h1,p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.food-card{
+  display: flex;
+  background-color: #f5562f; 
+  padding-bottom: 2rem;
+}
+.food-card div img{
+  height: 200px;
+  width: 100%;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+.food-card div{
+  border-radius: 1rem;
+  background-color: white;
+}
+.food-card div p{
+  font-family: 'Poppins', sans-serif;
+  padding: 0.3rem 1rem 0.5rem 1rem;
+}
+.food-card div h1{
+  font-family: 'Poppins', sans-serif;
+  padding: 0.3rem 0rem 0rem 1rem;
+}
+
+
+
+/* Questions */
+
+.explore-questions{
+  background-color: #f5562f; 
+  padding: 2rem 0rem;
+
+}
+.explore-questions-main-div{
+  width: 90%;
+  margin: auto;
+}
+.explore-questions-main-div h1{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.explore-questions-main-div-item{
+  /* display: flex; */
+  padding: 1rem 1rem; 
+   margin: 1rem 0rem;
+  border: 1px solid white;
+}
+
+.questions-div{
+  display: flex;
+  justify-content: space-between;
+}
+.questions-div p{
+  font-weight: 700;
+position: absolute;
+}
+.questions-div svg{
+  position: relative;
+  margin-right: 1rem;
+  }
+
+.answers{
+  padding: 1rem 0rem 0rem 0rem;
+  color: white;
+}
+
+
+/* FOOTER CSS */
+
+.footer-maindiv{
+  background-color: #f5562f;
+}
+
+.footer{
+  width: 90%;
+  margin: auto;
+}
+.footer .footer-heading{
+  font-family: 'Poppins', sans-serif;
+ 
+}
+.footer-blocks{
+  /* margin: 1rem 0rem;
+   */
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   justify-content: space-between;
+}
+
+.footer-blocks h1{
+  font-size: 1rem;
+  margin: 1rem 0rem;
+
+}
+
+
+
+
+
+

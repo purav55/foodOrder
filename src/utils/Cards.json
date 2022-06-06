@@ -1,0 +1,12 @@
+[
+    {
+        "title":"Order Online",
+        "description":"Stay home and order to your doorstep",
+        "image":"/assets/image/3.jpg"
+    },
+    {
+        "title":"Dining Out",
+        "description":"View the city's favorite dining venues",
+        "image":"/assets/image/2.jpg"
+    }
+]

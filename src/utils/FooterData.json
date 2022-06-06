@@ -1,0 +1,43 @@
+[
+    {
+        "heading":"ABOUT ZOMATO",
+        "items":[
+            "Who We Are",
+            "Blog",
+            "Work With Us",
+            "Investor Relations",
+            "Report Fraud"
+        ]
+    },
+    {
+        "heading":"FOODIEVERSE",
+        "items":[
+            "Foodie",
+            "Feeding India",
+            "Hyperpure",
+            "Zomaland",
+            "Report Fraud"
+
+        ]
+    },
+    {
+        "heading":"FOR RESTAURANTS",
+        "items":[
+            "Partner With Us",
+            "Apps For You",
+            "Join Us",
+            "Connect With Us",
+            "Report Fraud"
+        ]
+    },
+    {
+        "heading":"LEARN MORE",
+        "items":[
+            "Privacy",
+            "Security",
+            "Terms",
+            "Sitemap",
+            "Accounts"
+        ]
+    }
+]

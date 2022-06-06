@@ -1,0 +1,19 @@
+[
+    {
+        "question":"Popular restaurant types near me",
+        "answer":["Bakery food near me","Beverages food near me","Biryani food near me","Burger food near me","Chinese food near me"]
+    },
+    {
+        "question":"Popular cuisines near me",
+        "answer":["Bakery food near me","Beverages food near me","Biryani food near me","Burger food near me","Chinese food near me"]
+       
+    },
+    {
+        "question":"Top Restaurant Chains",
+        "answer":["Bakery food near me","Beverages food near me","Biryani food near me","Burger food near me","Chinese food near me"]
+    },
+    {
+        "question":"Cities We Deliver To",
+        "answer":["Bakery food near me","Beverages food near me","Biryani food near me","Burger food near me","Chinese food near me"]
+    }
+]
