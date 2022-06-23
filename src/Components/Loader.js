@@ -1,6 +1,6 @@
 import React from 'react'
 import { css } from "@emotion/react";
-import { PuffLoader } from 'react-spinners';
+import { ScaleLoader } from 'react-spinners';
 
 const override = css`
 position: absolute;
@@ -12,7 +12,7 @@ transform: translate(0, -50%);
 const Loader = () => {
   return (
     <div className='loader-style'>
-    <PuffLoader color={'black'} css={override} size={150} />
+    <ScaleLoader color={'black'} css={override} size={130} />
     </div>
   )
 }

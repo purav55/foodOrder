@@ -10,17 +10,17 @@ const Footer = () => {
   return (
     <div className='footer-maindiv'>
       <div className='footer'>
-      <h1 className='footer-heading'>foddie</h1>
+      <h1 className='footer-heading'>FOODFAME</h1>
       <div className='footer-blocks'>
         {
          FooterData.map((data,i)=>{
            return(
             <div>
-            <h1>{data.heading}</h1>
+            <h1>{data.heading},{i.heading}</h1>
             {
               data.items.map((data,i)=>{
                 return(
-                  <React.Fragment  key={i}>
+                  <React.Fragment key={i}>
                   <p>{data}</p>
                   </React.Fragment>
                 )
@@ -31,7 +31,7 @@ const Footer = () => {
          }) 
         }
         <div>
-        <h1>SOCIAL LINKS</h1>
+        <h1>FOODNETS</h1>
         <FacebookIcon/>
         <InstagramIcon/>
         <TwitterIcon/>
